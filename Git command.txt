@@ -1,0 +1,86 @@
+GIT>>>Distributed version ontrol system.
+
+Git >> save the changes which is done 
+
+## to create username and email address
+git config --global user.name sandeep 
+git config --global user.email sandeep@nestorbird.com 
+
+## to check username and email address 
+
+git config --global user.name 
+git config --global user.email
+
+code .  ===== this will open the visual studio
+
+git init == to initiate 
+
+ls -lart == show hidden files 
+
+untracked = means this git not track this file 
+commit = give staging area to commit. 
+
+git add -A  === this will add all file at one 
+
+git checkout filename == if data is lost then it will restore the data 
+
+git checkout -f === this command will restore all the data 
+
+git log == htis will show the status of changes 
+
+git log -p -5 == if we want to see the last 5 log details 
+
+git diff ========will compare working tree with stagging area 
+
+git diff --staged ==========will comapre the last commit with the stagging area 
+ 
+git commit -a -m "new commit"  ======  this command will add and commit both in one step 
+
+git rm --cached filename ==== this command will remove file from staging area but untracked file will  be present.
+
+git rm filename ===== will remove file from staging area as well as untracked area. 
+
+git status -s ==== will give the status of file 
+
+.gitignore file  == create a new file which dont want to push basically which are waste file.
+
+git branch newbranch === this will create a new branch 
+
+git branch == will show the branches availabe 
+
+git checkout newbranch == this will change the branch to newbranch from master branch 
+
+git merge newbranch === this will merge newbrach to master branch. 
+
+git checkout -b 2newbranch == this will create new branch and will directly move to that branch(2newbranch).
+
+git remote add origin URL === this will add the repository 
+
+git remote == 
+
+git remote -v
+
+=============================================================================================================
+this will add new branch to github 
+
+git checkout newbrach 
+git push -u origin newbranch 
+
+==========================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
